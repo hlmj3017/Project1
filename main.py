@@ -5,6 +5,15 @@ def add_func(n1,n2):
 def sub_func(n1, n2) :
 return n1-n2
 
+def mul_func(n1, n2) :
+return n1*n2
+
+def div_func(n1, n2) :
+return n1/n2
+
+def power_func(n1, n2) :
+return n1**n2
+
 ## 전역 변수부
 num1, num2 = 100, 200
 result = 0
@@ -15,3 +24,12 @@ print(num1, "+", num2, "=", result)
 
 result = sub_func(num1, num2)
 print(num1, "-", num2, "=", result)
+
+result = mul_func(num1, num2)
+print(num1, "*", num2, "=", result)
+
+result = div_func(num1, num2)
+print(num1, "/", num2, "=", result)
+
+result = power_func(num1, num2)
+print(num1, "**", num2, "=", result)
